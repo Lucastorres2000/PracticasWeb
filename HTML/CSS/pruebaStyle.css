@@ -1,54 +1,56 @@
 body{
     width: 70%;
     margin: 0 auto;
-    background-color: #BF8F73;
+    background-image: url(../Imagenes/beer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
-a:hover{
+html{
+    font-size: 100%;
+}
+ li a:hover{
     background-color: #401201;
     text-transform: uppercase;
+    text-decoration: underline;
 } 
-a:visited{
+ li a:visited{
     color: blue;
 }
 a:link{
     color: blue;
+    text-decoration: none;
 }
-/*
-h1{
-    font-size: 3em;
-    text-align: center;
-    text-shadow: #401201 5px 5px 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 0.2em ;
-}*/
 p{
-    line-height: 1.5em;
-    text-indent: 2em;
-    padding: 0 1em;
-    word-spacing: 0.2em;
+    line-height: 1.5rem;
+    text-indent: 2rem;
+    padding:  0.6rem;    
+    word-spacing: 0.2rem;
 }
 
-#Menu{
-    background-color:#345948;
-    font-family: 'Courier New', Courier, monospace;
-}
-#Content {
-background-color:#345948 ;
-}
 h2,h1{
     background-color:#735646 ;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     text-shadow: #401201 4px 5px 5px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2rem;
+    padding: 0.3rem; /* padding: T R B L */
+    
+    
 }
 
-span.sombra {text-shadow: black 2px 2px 2px;}
+#Content h2{
+   border:#345948 groove 0.5rem;
+}
 
+#Menu{
+    background-color:#345948;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-
-
-
-
+#Content p {
+    background-color: #345948;
+    border: black groove 0.2rem ;
+}
